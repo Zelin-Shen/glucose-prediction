@@ -1,6 +1,6 @@
 # Short-Term Blood Glucose Prediction with Machine Learning and Deep Learning in Simulated and Real-World Environments
 
-**Author: Zelin Shen** ([GitHub](https://github.com/YmcjZkbr) | [Google Scholar](https://scholar.google.com/citations?user=_mUCZxIAAAAJ))
+**Author: Zelin Shen** ([GitHub](https://github.com/Zelin-Shen) | [Google Scholar](https://scholar.google.com/citations?user=D6zIduEAAAAJ))
 
 Official code repository for two published papers:
 
