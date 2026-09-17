@@ -1,0 +1,14 @@
+# Core experiment environment (Python 3.9+)
+torch>=2.0
+lightgbm>=3.3
+scikit-learn>=1.1
+pandas>=1.5
+numpy>=1.23
+matplotlib>=3.6
+scipy>=1.9
+seaborn>=0.12
+shap>=0.41
+tqdm>=4.64
+joblib>=1.2
+optuna>=3.0
+jupyter>=1.0
