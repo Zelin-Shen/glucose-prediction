@@ -45,10 +45,12 @@ github-glucose-prediction/
 │   └── model_visualization_*.ipynb     # Prediction curve plotting
 ├── models/                         # Trained PyTorch weights (LSTM / GRU / Transformer)
 ├── results/
-│   ├── metrics_summary_*.csv       # Per-patient RMSE / MAE / R² tables
-│   ├── detailed_model_summary_*.csv
-│   ├── experiment_summary_*.json
-│   └── figures/                    # Prediction curves (selected patients)
+│   ├── metrics_summary_simulated_*.csv      # Per-patient RMSE / MAE / R² (simulated)
+│   ├── detailed_model_summary_simulated_*.csv
+│   ├── experiment_summary_simulated_*.json
+│   ├── predictions_simulated_*_patient*.csv # Simulated predictions (30/60-min, 3 virtual patients)
+│   ├── predictions_clinical_*.csv           # Clinical ML predictions (Ridge/RF/LightGBM, 30/60-min)
+│   └── figures/                             # Prediction curves, 30-min & 60-min, real & simulated
 ├── data_docs/
 │   └── ohiot1dm_reference.txt      # Dataset citations
 ├── requirements.txt
@@ -111,7 +113,7 @@ If this work is useful to your research, please cite the paper:
                Blood Glucose Prediction in Type 1 Diabetes with Simulated and Clinical Data},
   author    = {Shen, Zelin},
   booktitle = {2025 5th International Symposium on Artificial Intelligence and Big Data (AIBDF)},
-  note      = {Best Paper Honorable Award; EI indexed},
+  note      = {Best Paper Honorable Award; Excellent Oral Presentation; EI indexed},
   year      = {2025}
 }
 ```
