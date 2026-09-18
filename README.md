@@ -60,7 +60,25 @@ github-glucose-prediction/
 
 ## Result Preview
 
-![Glucose prediction curves (LSTM, 60-min)](results/figures/real_60min_LSTM_all_patients.png)
+### Clinical data (OhioT1DM) — 60-minute horizon
+
+| LSTM | GRU | Transformer |
+|---|---|---|
+| ![60-min LSTM](results/figures/preview/real_60min_LSTM_all_patients.jpg) | ![60-min GRU](results/figures/preview/real_60min_GRU_all_patients.jpg) | ![60-min Transformer](results/figures/preview/real_60min_Transformer_all_patients.jpg) |
+
+### Clinical data (OhioT1DM) — 30-minute horizon
+
+| LSTM | GRU | Transformer |
+|---|---|---|
+| ![30-min LSTM](results/figures/preview/real_30min_LSTM_all_patients.jpg) | ![30-min GRU](results/figures/preview/real_30min_GRU_all_patients.jpg) | ![30-min Transformer](results/figures/preview/real_30min_Transformer_all_patients.jpg) |
+
+### Simulated environment (UVa/Padova)
+
+| 30-minute horizon | 60-minute horizon |
+|---|---|
+| ![Simulated 30-min](results/figures/preview/simulated_30min_patient1.jpg) | ![Simulated 60-min](results/figures/preview/simulated_60min_patient1.jpg) |
+
+*Downscaled previews are shown above for fast page loading. Full-resolution figures — including per-patient detail plots for all six clinical patients — are in [`results/figures/`](results/figures/).*
 
 ## Datasets
 
